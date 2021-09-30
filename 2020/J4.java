@@ -6,6 +6,7 @@ public class J4 {
 
         String a = input.nextLine();
         String b = input.nextLine();
+        input.close();
         boolean found = false;
 
         for (int j = 0; j < b.length(); j++) {
