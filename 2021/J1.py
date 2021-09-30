@@ -1,9 +1,2 @@
-b = input()
-p = (int(b) * 5) - 400
-print(p)
-if p < 100:
-    print(1)
-elif p == 100:
-    print(0)
-elif p > 100:
-    print(-1)
+p = (int(input()) * 5) - 400
+print(str(p) + "\n" + str(1 if p < 100 else 0 if p == 100 else -1))
